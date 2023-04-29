@@ -113,7 +113,11 @@ h1{
 
 
 
-
+.social a img{
+  width: 50px;
+  margin: 0 14px !important; 
+  display: inline;
+}
 
 
 
