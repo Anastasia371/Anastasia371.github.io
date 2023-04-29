@@ -4,8 +4,18 @@ body {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     padding: 20px;
+    cursor: url('c_2_def.png') 50 50, default;
 
     }
+
+    a{
+      cursor: url('c_2_pointer.png') 50 50, pointer; 
+    }
+    
+    button{
+      cursor: url('c_2_pointer.png') 50 50, pointer; 
+    }
+
 
     .container {
         text-align: center;
