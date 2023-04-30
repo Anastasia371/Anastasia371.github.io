@@ -1,3 +1,9 @@
+html{
+  cursor: url('c_2_def.png') 50 50, default; 
+}
+
+
+
 body {
     background: url(https://wall-photo.ru/wp-content/uploads/2018/09/screenshot-2255.jpg) no-repeat top fixed; /* Цвет фона и путь к файлу */
     background-size: cover;

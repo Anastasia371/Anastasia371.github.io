@@ -1,3 +1,8 @@
+html{
+  cursor: url('c_2_def.png') 50 50, default; 
+}
+
+
 body {
     background: url(https://i.pinimg.com/originals/a3/55/46/a355469c8f64282698f5918f2648763a.jpg) no-repeat top fixed; /* Цвет фона и путь к файлу */
     background-size: cover;

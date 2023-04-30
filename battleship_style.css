@@ -1,3 +1,8 @@
+html{
+  cursor: url('c_2_def.png') 50 50, default; 
+}
+
+
 body {
     background: url(https://klike.net/uploads/posts/2022-11/1667625000_7-31.jpg) no-repeat top fixed; /* Цвет фона и путь к файлу */
     background-size: cover;

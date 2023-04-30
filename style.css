@@ -1,3 +1,11 @@
+
+html{
+  cursor: url('c_2_def.png') 50 50, default; 
+}
+
+
+
+
 body {
             background: url(https://i.pinimg.com/originals/c0/b1/10/c0b110ce3599d57a06f3d2bc1831a4af.jpg) no-repeat top fixed; /* Цвет фона и путь к файлу */
             color:azure; /* Цвет текста */
@@ -7,6 +15,8 @@ body {
             padding: 20px;
             cursor: url('c_2_def.png') 50 50, default; 
             }
+
+
 
 a{
   cursor: url('c_2_pointer.png') 50 50, pointer; 

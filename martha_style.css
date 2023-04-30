@@ -1,3 +1,8 @@
+html{
+  cursor: url('c_2_def.png') 50 50, default; 
+}
+
+
 body {
     background: url(https://images6.alphacoders.com/796/thumb-1920-796278.jpg) no-repeat top fixed; /* Цвет фона и путь к файлу */
     background-size: cover;
