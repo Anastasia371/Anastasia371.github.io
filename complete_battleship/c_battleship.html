@@ -50,6 +50,49 @@
             .miss {
                 background: url("miss.png") no-repeat center center;
             }
+
+    
+      #okno {
+        width: 700px;
+        height: 200px;
+        font-family: 'Amatic SC', cursive;
+        font-size: 40px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid rgb(6, 67, 147);
+        border-radius: 10px;
+        background-color: #e0f0fe;
+        color: black;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        z-index: 200;
+      }
+
+      #okno:target {display: block;}
+
+      .close {
+        display: inline-block;
+        border: 1px solid #080f24;
+        border-radius: 3px;
+        color: #ccd8f9;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #0b1149;
+        font-size: 20pt;
+        cursor: url('c_2_pointer.png') 50 50, pointer;
+      }
+      .close:hover {
+        background: #e6e6ff; 
+        color:#080f24
+
+    }
+
         </style>
 
         <link rel="stylesheet" href="../complete_battleship/c_battleship_style.css">
@@ -66,8 +109,18 @@
 
     </head>
     <body>
+        
         <form action="../index.html" class="form"><button class="btn4 shake-slow">Пойти назад</button></form>
-        <div id="board">
+        
+        <div id="okno">
+            Перед тобой игра в морской бой. Где-то на этой доске прячутся три трехпалубных корабля. Одна клетка - одна палуба. Твоя задача - потопить их все. Удачи! :)<br>
+            <a href="#" class="close">Закрыть</a>
+          </div>
+           
+          <a class="btn5 shake-slow" href="#okno">?</a>
+            
+
+            <div id="board">
             <div id="messageArea"></div>
             <table>
                 <tr>
@@ -99,5 +152,6 @@
 
         </div>
         <script src="c_battleship.js"> </script>
+
     </body>
 </html>
